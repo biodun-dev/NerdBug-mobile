@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "NerdBug Mobile",
+    "slug": "nerdbug-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/image.svg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icons/image.svg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/image.svg",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/icons/image.svg"
+    },
+    "plugins": ["expo-font"]
+  }
+}
