@@ -97,13 +97,15 @@ const HomeScreen = () => {
         />
       )}
 
-      <TouchableOpacity
-        activeOpacity={0.8}
-        style={styles.fab}
-        onPress={() => navigation.navigate("NoteEditor", {})}
-      >
-        <Ionicons name="add" size={30} color={colors.white} />
-      </TouchableOpacity>
+      <View style={styles.fabContainer}>
+        <TouchableOpacity
+          activeOpacity={0.8}
+          style={styles.fab}
+          onPress={() => navigation.navigate("NoteEditor", {})}
+        >
+          <Ionicons name="add" size={30} color={colors.white} />
+        </TouchableOpacity>
+      </View>
     </SafeAreaView>
   );
 };
