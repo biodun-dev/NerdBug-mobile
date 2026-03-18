@@ -56,7 +56,6 @@ For a detailed breakdown of the codebase architecture, please refer to [ARCHITEC
 - npm test: Runs Jest unit tests.
 
 ## Contributing
-We welcome contributions! Please see [CONTRIBUTING.md](file:///home/biodun/NerdBug-mobile/CONTRIBUTING.md) for our development standards and workflow.
+We welcome contributions! Please see [CONTRIBUTING.md](/NerdBug-mobile/CONTRIBUTING.md) for our development standards and workflow.
 
 ---
-Built with by the NerdBug Team.
